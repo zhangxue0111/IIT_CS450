@@ -1,7 +1,5 @@
 # Part 2: System calls to share a memory page
 
-Written by Xue Zhang A20484478, and Xiaoxu Li A20522966
-
 ## 1. Introduction
 
 Page tables determine what memory addresses mean, and what parts of physical memory can be accessed. They allow xv6 to isolate different process’s address spaces and to multiplex them onto a single physical memory. 
