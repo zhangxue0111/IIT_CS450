@@ -1,4 +1,4 @@
- // Team members: Xue Zhang (A20494478) and Xiaoxu Li (A20522966)
+ 
 
  // Compile with: gcc -o arr_free arr_free.c -Wall
  // Debug with gdb ./arr
