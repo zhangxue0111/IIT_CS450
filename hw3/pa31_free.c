@@ -1,4 +1,3 @@
- // Team members: Xue Zhang (A20494478) and Xiaoxu Li (A20522966) 
 
  // This is a program that allocates memory using malloc() but forgets to free it before exiting.
  // Compile with: gcc -o pa31 pa31.c -Wall
