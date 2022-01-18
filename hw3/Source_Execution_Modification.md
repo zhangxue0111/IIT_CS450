@@ -1,7 +1,5 @@
 # Source_Execution_Modification
 
-Written by Xue Zhang A20484478, and Xiaoxu Li (A20522966)
-
 # Overview
 
 The code for PA3. 
