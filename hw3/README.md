@@ -2,8 +2,6 @@
 
 Readme for PA3 part2
 
-Written by Xue Zhang A20484478, and Xiaoxu Li A20522966
-
 ## Source
 
 See `Source_Execution_Modification.pdf`
