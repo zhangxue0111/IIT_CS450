@@ -10,13 +10,11 @@ The task of part 2 is to implement a pair of system calls: GetSharedPage() and F
 
 As Figure 3.2 shows, a RISC-V CPU translates a virtual address into a physical in three steps. A page table is stored in physical memory as a three-level tree. The root of the tree is a 4096-byte page-table page that contains 512 PTEs, which contain the physical addresses for page-table pages in the next level of the tree. Each of those pages contains 512 PTEs for the final level in the tree. The paging hardware uses the top 9 bits of the 27 bits to select a PTE in the root page-table page, the middle 9 bits to select a PTE in a page table page in the next level of the tree, and the bottom 9 bits to select the final PTE. 
 
-![image-20211107200703885](/home/xue/.config/Typora/typora-user-images/image-20211107200703885.png)
 
 ## 3. Memory layout
 
 The following picture shows how this layout maps kernel virtual addresses to physical addresses.
 
-![image-20211107201925107](/home/xue/.config/Typora/typora-user-images/image-20211107201925107.png)
 
 From the memory layout, we could see clearly that kernel is directed map to physical memory, which is useful for the kernel control the whole system.
 
@@ -67,8 +65,6 @@ void map_shm_region(int key, struct proc *p, void *addr) {
 ```
 
 ### 4.3 Implementation of the `getsharedpage`
-
-![image-20211108160914799](/home/xue/.config/Typora/typora-user-images/image-20211108160914799.png)
 
 ```c
 void *
