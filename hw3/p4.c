@@ -1,4 +1,3 @@
- // Team members: Xue Zhang (A20494478) and Xiaoxu Li (A20522966)
 
  // Compile with: gcc -o p4 p4.c -Wall
  // Debug with gdb ./p4
