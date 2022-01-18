@@ -1,4 +1,3 @@
- // Team members: Xue Zhang (A20494478) and Xiaoxu Li (A20522966) 
 
  // Compile with: gcc -g null_free null_free.c -o -Wall
  // Run with ./null_free
